@@ -37,7 +37,7 @@ def model_post_save(sender, **kwargs):
             some_id= 16
             #cursor.execute(sql, ([16]))  #no invoca funciones?
             #cursor.callproc('f_question', [16])
-            '''
+            '''#last
 create or replace function f_question(
     id int
     ) returns table (
